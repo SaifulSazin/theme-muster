@@ -1,0 +1,53 @@
+/* large Screen */
+
+@media only screen and (min-width: 1600px) and (max-width: 2800px) {}
+
+
+/* Medium Screen */
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {}
+
+
+/* Tablet Screen  768px*/
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .containertwo {
+        width: 750px;
+    }
+    .fordesktop {
+        display: none;
+    }
+    .formobile {
+        display: block;
+    }
+}
+
+
+/* Mobile Screen  320px*/
+
+@media only screen and (max-width: 767px) {
+    .containertwo {
+        width: 350px;
+    }
+    .fordesktop {
+        display: none;
+    }
+    .formobile {
+        display: block;
+    }
+}
+
+
+/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    .containertwo {
+        width: 450px;
+    }
+    .fordesktop {
+        display: none;
+    }
+    .formobile {
+        display: block;
+    }
+}
