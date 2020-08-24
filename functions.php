@@ -1,6 +1,6 @@
 <?php
 
-    if ( site_url() == "http://localhost:8888/theme-muster" ) {
+    if ( site_url() == "http://siteurl" ) {
         define( "VERSION", time() );
     } else {
         define( "VERSION", wp_get_theme()->get( "Version" ) );
